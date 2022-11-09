@@ -2,6 +2,7 @@
 
 apt update
 DEBIAN_FRONTEND=noninteractive apt install wget -y
+docker pull intel/dlstreamer:2022.2.0-ubuntu20-gpu419.40-devel
 mkdir -p vids
 mkdir -p models
 mkdir -p scripts
